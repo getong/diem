@@ -33,7 +33,7 @@ storage-service-server = { path = "../storage-service/server" }
 [dev-dependencies]
 claim = "0.5.0"
 maplit = "1.0.2"
-tokio = { version = "1.8.1", features = ["rt", "macros"], default-features = false }
+tokio = { version = "1.14.0", features = ["rt", "macros"], default-features = false }
 
 bcs = "0.1.2"
 channel = { path = "../../crates/channel" }
