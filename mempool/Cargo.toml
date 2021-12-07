@@ -21,7 +21,7 @@ rayon = "1.4.1"
 serde = { version = "1.0.124", default-features = false }
 thiserror = "1.0.24"
 tokio = { version = "1.8.1", features = ["full"] }
-tokio-stream = "0.1.4"
+tokio-stream = "0.1.8"
 
 bounded-executor = { path = "../crates/bounded-executor" }
 channel = { path = "../crates/channel" }
