@@ -16,7 +16,7 @@ async-trait = "0.1.42"
 futures = "0.3.12"
 rand = "0.8.3"
 serde = { version = "1.0.124", default-features = false }
-tokio = { version = "1.8.1", features = ["full"] }
+tokio = { version = "1.16.1", features = ["full"] }
 
 channel = { path = "../../crates/channel" }
 bcs = "0.1.2"
